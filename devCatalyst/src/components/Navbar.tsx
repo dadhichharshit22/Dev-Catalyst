@@ -1,20 +1,17 @@
-import React from 'react'
-
+//import React from 'react'
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-      <div>
-        <img src='./assets/react.svg' alt="Dev Catalyst Logo"/>
-      </div>
-      <div>
-        <p>Courses</p>
-        <p>About</p>
-      </div>
-      <div>
-        <img src="" alt="Dark Mode"/>
-        <button>Login</button>
-      </div>
+     <nav>
+      <img/>
+      <Link to='/'>Courses</Link>
+      <Link to='/about'>About</Link>
+      <img/>
+      <button>Login</button>
+      </nav>
     </div>
+   
   )
 }
 
